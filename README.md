@@ -45,14 +45,14 @@ This project involves the development of an automatic camera focusing system uti
    git clone https://github.com/onurkarakoc79/AutoFocus
 ```
 
-```bash
-    python3 AutoFocus.py
-```
-
 # Usage
 1. Power on the Raspberry Pi and connected components.
 2. Adjust focus by pointing the camera at the target object.
-3. The system will analyze the image's clarity and automatically adjust the focus.
+3. Run the following script
+   ```bash
+    python3 AutoFocus.py
+   ```
+4. The system will analyze the image's clarity and automatically adjust the focus.
 # Applications
 * Photography: Enhanced focus precision for capturing sharp images.
 * Surveillance: Continuous focus adjustments for monitoring.
