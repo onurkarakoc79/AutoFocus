@@ -28,8 +28,10 @@ This project involves the development of an automatic camera focusing system uti
 1. Install Raspbian OS on Raspberry Pi.
 2. Install the OpenCV library:
 
-<pre> sudo apt-get install python3-opencv </pre>
 
+```bash
+   sudo apt-get install python3-opencv
+```
 3. Install the PiGPIO library like described in the website:
 <pre> https://abyz.me.uk/rpi/pigpio/download.html </pre>
 
@@ -39,7 +41,13 @@ This project involves the development of an automatic camera focusing system uti
 
 5. Run the focus adjustment script:
 
-<pre> python3 AutoFocus.py </pre>
+```bash
+   git clone https://github.com/onurkarakoc79/AutoFocus
+```
+
+```bash
+    python3 AutoFocus.py
+```
 
 # Usage
 1. Power on the Raspberry Pi and connected components.
@@ -58,3 +66,15 @@ This project involves the development of an automatic camera focusing system uti
 * Enhancing focus adjustment speed.
 * Reducing system size for compact applications.
 * Extending use cases to include robotics and industrial automation.
+
+
+
+## Contact
+
+If you have any questions, feedback, or inquiries related to the project, feel free to reach out to me:
+
+My personal mail: onurkarakoc79@gmail.com
+
+       
+I appreciate your interest in my projects and look forward to collaborating with you in the fascinating field of scientific exploration and discovery.
+
